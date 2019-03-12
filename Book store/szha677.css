@@ -1,0 +1,28 @@
+
+#logo	{ height: 300px; width: 200px; }
+.tab	{overflow: hidden; border: 1px solid #000000; background-color: #000000; }
+.tab button	{ background-color: #000000; border: none; outline: none; font-size: 100%; padding: 14px; color: white; }
+#x	{float:right; margin-top: 12px;}
+#y	{float:right; margin-top: 12px;}
+
+#buy	{position:relative; margin-left: 80%; bottom:235px; border: 1px solid #000000;background-color: #000000;color: white;font-size: 100%; padding: 14px}
+#buy:hover	{background-color: #076AF9;}
+.booktitle	{position:relative; margin-left: 200px; bottom: 170px;font-family:Trebuchet MS; font-size:20px;}
+.authorI	{position:relative; margin-left: 200px; bottom: 170px;font-family:Trebuchet MS; font-size:20px;}
+
+#buy1	{position:relative; margin-left: 80%; bottom:180px; border: 1px solid #000000;background-color: #000000;color: white;font-size: 100%; padding: 14px}
+#buy1:hover	{background-color: #076AF9;}
+.blutitle	{position:relative; margin-left: 220px; bottom: 150px; font-family:Trebuchet MS; font-size:20px;}
+
+#SectionA p	{text-align: center; font-family:Trebuchet MS; font-size:16px; padding: 10px;}
+
+#inputc	{width: 500px; height: 150px; font-size:16px;}
+
+#commentpage	{text-align: center;}
+
+#commenting	{word-wrap:break-word;}
+
+.image	{display: inline-block; padding: 20px;}
+
+/* URL:https://stackoverflow.com/questions/114543/how-to-horizontally-center-a-div-in-another-div , Description: making images in a horizonal line*/
+#SectionA1	{ margin: 0 auto;width: 50%;}

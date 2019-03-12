@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Boutique Cass&#233;e</title> <!--URL: https://stackoverflow.com/questions/3812949/how-can-i-show-special-characters-like-e-with-accent-acute-over-it-in-html-pag 
+	, Description: &#233; used to create é symbol -->
+	<link rel="stylesheet" href="szha677.css">
+   
+	<script src="szha677.js">
+	</script>
+
+</head>
+<body>
+
+	<img id = "logo" src = "http://redsox.uoa.auckland.ac.nz/BC/Open/Service.svc/logo" alt = "The Logo" >
+
+	<!-- URL:https://www.w3schools.com/howto/howto_js_tabs.asp 
+	, Description: code here help setup and stlye my tabs 
+	, URL:https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener
+	, Description: used to help with changing colors when hovering over tab in js-->
+	
+	
+	<div class = "tab">
+		<button id = "tab1" class = "tablinks" onclick = "openTab1()" onmouseover="mouseOver()" onmouseout="mouseOut()">Homepage</button>
+		<button id = "tab2" class = "tablinks" onclick = "openTab2()" onmouseover="mouseOver1()" onmouseout="mouseOut1()">Browse books</button>
+		<button id = "tab3" class = "tablinks" onclick = "openTab3()" onmouseover="mouseOver2()" onmouseout="mouseOut2()">Browse blurays</button>
+		<button id = "tab4" class = "tablinks" onclick = "openTab4()" onmouseover="mouseOver3()" onmouseout="mouseOut3()">Comments</button>
+		<button id = "tab5" class = "tablinks" onclick = "openTab5()" onmouseover="mouseOver4()" onmouseout="mouseOut4()">Register</button>
+		<input id = "x" placeholder='search' onkeydown="blSearch()">
+		<input id = "y" placeholder='search' onkeydown="brSearch()">
+	</div>
+	
+	
+	   
+	<div id="SectionA">
+		<p>
+			"Welcome to La Boutique Cass&#233;e"
+			</br>
+			Browse our large library of books and blurays, available to you at a click of a button.
+			</br>
+			We strive to keep our prices below competitors, and our aim is to become your one stop shop for entertainment. 
+			</br>
+	
+		</p>
+		
+		<div id = "SectionA1"></div>
+	
+	</div>
+   
+	<div id="SectionB">
+		
+		</div>
+	
+   
+	<div id="SectionC">
+	
+		</div>
+	
+	<div id="SectionD">
+		<div id = "commentpage">
+			<p> Enter comments here:</p>
+			<textarea id = "inputc"></textarea>
+			<p>Your Name:</p>
+			<input id = "inputn">
+			<button id = "buttoning" onclick = "gettingP()">Save</button>
+			</div>
+			<div id = "commenting"></div>
+			
+	</div>
+   
+	<div id="SectionE">
+		<div id = "loginp">
+			<p>Username:</p>
+			<input id = "inputu">
+			<p>Password:</p>
+			<input id = "inputp">
+			<p>Address</p>
+			<input id = "inputa">
+			<button id = "buttoning2" onclick = "gettingR()">Register</button>
+			
+			<p id = "rmsg"></p>
+			
+		</div>
+		
+	</div>
+   
+</body>
+</html>
